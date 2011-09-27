@@ -10,4 +10,8 @@
 
 @interface GSTwirlyView : ScreenSaverView
 
+@property (nonatomic) CGFloat xPeriod, yPeriod;
+@property (nonatomic, copy) CGFloat(^x)(NSTimeInterval);
+@property (nonatomic, copy) CGFloat(^y)(NSTimeInterval);
+
 @end
