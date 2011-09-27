@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4C52A6114318F7800E4AD5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C52A6014318F7800E4AD5E /* Cocoa.framework */; };
+		F4C52A6314318F7800E4AD5E /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C52A6214318F7800E4AD5E /* ScreenSaver.framework */; };
+		F4C52A6D14318F7800E4AD5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4C52A6B14318F7800E4AD5E /* InfoPlist.strings */; };
+		F4C52A7014318F7800E4AD5E /* GSTwirlyView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C52A6F14318F7800E4AD5E /* GSTwirlyView.h */; };
+		F4C52A7214318F7800E4AD5E /* GSTwirlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C52A7114318F7800E4AD5E /* GSTwirlyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4C52A5D14318F7800E4AD5E /* GSTwirly.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSTwirly.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C52A6014318F7800E4AD5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F4C52A6214318F7800E4AD5E /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		F4C52A6514318F7800E4AD5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F4C52A6614318F7800E4AD5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F4C52A6714318F7800E4AD5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4C52A6A14318F7800E4AD5E /* GSTwirly-Info.plist */ = {isa = PBXFileReference; path = "GSTwirly-Info.plist"; sourceTree = "<group>"; };
+		F4C52A6C14318F7800E4AD5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4C52A6E14318F7800E4AD5E /* GSTwirly-Prefix.pch */ = {isa = PBXFileReference; path = "GSTwirly-Prefix.pch"; sourceTree = "<group>"; };
+		F4C52A6F14318F7800E4AD5E /* GSTwirlyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSTwirlyView.h; sourceTree = "<group>"; };
+		F4C52A7114318F7800E4AD5E /* GSTwirlyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSTwirlyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C52A5814318F7700E4AD5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C52A6114318F7800E4AD5E /* Cocoa.framework in Frameworks */,
+				F4C52A6314318F7800E4AD5E /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4C52A5014318F7700E4AD5E = {
+			isa = PBXGroup;
+			children = (
+				F4C52A6814318F7800E4AD5E /* GSTwirly */,
+				F4C52A5F14318F7800E4AD5E /* Frameworks */,
+				F4C52A5E14318F7800E4AD5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C52A5E14318F7800E4AD5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C52A5D14318F7800E4AD5E /* GSTwirly.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C52A5F14318F7800E4AD5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4C52A6014318F7800E4AD5E /* Cocoa.framework */,
+				F4C52A6214318F7800E4AD5E /* ScreenSaver.framework */,
+				F4C52A6414318F7800E4AD5E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4C52A6414318F7800E4AD5E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4C52A6514318F7800E4AD5E /* AppKit.framework */,
+				F4C52A6614318F7800E4AD5E /* CoreData.framework */,
+				F4C52A6714318F7800E4AD5E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F4C52A6814318F7800E4AD5E /* GSTwirly */ = {
+			isa = PBXGroup;
+			children = (
+				F4C52A6F14318F7800E4AD5E /* GSTwirlyView.h */,
+				F4C52A7114318F7800E4AD5E /* GSTwirlyView.m */,
+				F4C52A6914318F7800E4AD5E /* Supporting Files */,
+			);
+			path = GSTwirly;
+			sourceTree = "<group>";
+		};
+		F4C52A6914318F7800E4AD5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C52A6A14318F7800E4AD5E /* GSTwirly-Info.plist */,
+				F4C52A6B14318F7800E4AD5E /* InfoPlist.strings */,
+				F4C52A6E14318F7800E4AD5E /* GSTwirly-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4C52A5914318F7700E4AD5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C52A7014318F7800E4AD5E /* GSTwirlyView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4C52A5C14318F7700E4AD5E /* GSTwirly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C52A7514318F7800E4AD5E /* Build configuration list for PBXNativeTarget "GSTwirly" */;
+			buildPhases = (
+				F4C52A5714318F7700E4AD5E /* Sources */,
+				F4C52A5814318F7700E4AD5E /* Frameworks */,
+				F4C52A5914318F7700E4AD5E /* Headers */,
+				F4C52A5A14318F7700E4AD5E /* Resources */,
+				F4C52A5B14318F7700E4AD5E /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSTwirly;
+			productName = GSTwirly;
+			productReference = F4C52A5D14318F7800E4AD5E /* GSTwirly.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C52A5214318F7700E4AD5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Goo Software Ltd";
+			};
+			buildConfigurationList = F4C52A5514318F7700E4AD5E /* Build configuration list for PBXProject "GSTwirly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4C52A5014318F7700E4AD5E;
+			productRefGroup = F4C52A5E14318F7800E4AD5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C52A5C14318F7700E4AD5E /* GSTwirly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C52A5A14318F7700E4AD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C52A6D14318F7800E4AD5E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F4C52A5B14318F7700E4AD5E /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C52A5714318F7700E4AD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C52A7214318F7800E4AD5E /* GSTwirlyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4C52A6B14318F7800E4AD5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C52A6C14318F7800E4AD5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4C52A7314318F7800E4AD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4C52A7414318F7800E4AD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4C52A7614318F7800E4AD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSTwirly/GSTwirly-Prefix.pch";
+				INFOPLIST_FILE = "GSTwirly/GSTwirly-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		F4C52A7714318F7800E4AD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSTwirly/GSTwirly-Prefix.pch";
+				INFOPLIST_FILE = "GSTwirly/GSTwirly-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C52A5514318F7700E4AD5E /* Build configuration list for PBXProject "GSTwirly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C52A7314318F7800E4AD5E /* Debug */,
+				F4C52A7414318F7800E4AD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C52A7514318F7800E4AD5E /* Build configuration list for PBXNativeTarget "GSTwirly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C52A7614318F7800E4AD5E /* Debug */,
+				F4C52A7714318F7800E4AD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4C52A5214318F7700E4AD5E /* Project object */;
+}
