@@ -12,10 +12,8 @@
     NSWindow *window;
 }
 
-@property (nonatomic, retain) IBOutlet NSView * view;
+@property (nonatomic, assign) IBOutlet NSView * view;
 @property (assign) IBOutlet NSWindow *window;
 @property (nonatomic, retain) NSTimer * timer;
-
-- (void)updateView;
 
 @end

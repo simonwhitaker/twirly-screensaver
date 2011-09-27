@@ -16,18 +16,21 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0/30.0
-                                                  target:self
-                                                selector:@selector(updateView)
+                                                  target:self.view
+                                                selector:@selector(setNeedsDisplay:)
                                                 userInfo:nil
                                                  repeats:YES];
-    [self.timer fire];
 }
 
-- (void)updateView
+- (void)applicationWillTerminate:(NSNotification *)notification
 {
-    self.view.needsDisplay = YES;
+    self.timer = nil;
+}
+
+- (void)dealloc
+{
+    self.timer = nil;
 }
 
 @end
