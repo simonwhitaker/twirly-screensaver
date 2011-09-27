@@ -27,7 +27,6 @@
 
 - (void)updateView
 {
-    NSLog(@"Called updateView");
     self.view.needsDisplay = YES;
 }
 
