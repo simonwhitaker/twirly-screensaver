@@ -16,9 +16,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0/30.0
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:self.view.animationTimeInterval
                                                   target:self.view
-                                                selector:@selector(setNeedsDisplay:)
+                                                selector:@selector(animateOneFrame)
                                                 userInfo:nil
                                                  repeats:YES];
 }

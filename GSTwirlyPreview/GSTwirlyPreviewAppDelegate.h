@@ -7,12 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <ScreenSaver/ScreenSaver.h>
 
 @interface GSTwirlyPreviewAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
 }
 
-@property (nonatomic, assign) IBOutlet NSView * view;
+@property (nonatomic, assign) IBOutlet ScreenSaverView * view;
 @property (assign) IBOutlet NSWindow *window;
 @property (nonatomic, retain) NSTimer * timer;
 
