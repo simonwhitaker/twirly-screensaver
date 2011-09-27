@@ -27,7 +27,6 @@
 		F4C52A6014318F7800E4AD5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F4C52A6214318F7800E4AD5E /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 		F4C52A6514318F7800E4AD5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		F4C52A6614318F7800E4AD5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F4C52A6714318F7800E4AD5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4C52A6A14318F7800E4AD5E /* GSTwirly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSTwirly-Info.plist"; sourceTree = "<group>"; };
 		F4C52A6C14318F7800E4AD5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -102,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				F4C52A6514318F7800E4AD5E /* AppKit.framework */,
-				F4C52A6614318F7800E4AD5E /* CoreData.framework */,
 				F4C52A6714318F7800E4AD5E /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -427,6 +425,7 @@
 				F4C52A7714318F7800E4AD5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4C52A91143195E000E4AD5E /* Build configuration list for PBXNativeTarget "GSTwirlyPreview" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +434,7 @@
 				F4C52A93143195E000E4AD5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
